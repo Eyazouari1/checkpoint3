@@ -1,0 +1,24 @@
+PROCEDURE DOT PRODUCT(parameters)
+VAR
+    tab  : ARRAY_OF R*;
+    v1,v2:R*;
+    ps:resultat=0;
+    i:INTEGER;
+BEGIN
+    FOR i FROM 0 TO tab.length-1 STEP step  DO
+        read(v1[i]);
+        read(v2[i]);
+        IF (v1[i]=R*and v2[i]=R*) THEN
+            ps=v1[i]*v2[i];
+        END_IF
+    END_FOR
+    write ("la value de ps is:"la value de ps)
+END
+ALGORITHM PRODUIT SCALAIRE
+VAR
+    
+BEGIN
+    //display
+    //sub algo
+    //
+END
